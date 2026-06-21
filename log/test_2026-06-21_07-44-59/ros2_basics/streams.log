@@ -1,0 +1,15 @@
+[0.148s] Invoking command in '/home/bartek/ros2_ws/src/ros2_basics': AMENT_PREFIX_PATH=/home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/pytest.xml --junit-prefix=ros2_basics -o cache_dir=/home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.404s] ============================= test session starts ==============================
+[0.404s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.404s] cachedir: build/ros2_basics/.pytest_cache
+[0.404s] rootdir: /home/bartek/ros2_ws/src/ros2_basics
+[0.404s] plugins: ament-lint-0.17.5, ament-pep257-0.17.5, launch-testing-3.4.10, ament-xmllint-0.17.5, launch-testing-ros-0.26.11, ament-copyright-0.17.5, ament-flake8-0.17.5, colcon-core-0.20.1, cov-4.1.0
+[0.404s] collected 3 items
+[0.404s] 
+[0.408s] test/test_copyright.py s                                                 [ 33%]
+[0.546s] test/test_flake8.py .                                                    [ 66%]
+[0.595s] test/test_pep257.py .                                                    [100%]
+[0.595s] 
+[0.595s] - generated xml file: /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/pytest.xml -
+[0.595s] ========================= 2 passed, 1 skipped in 0.25s =========================
+[0.632s] Invoked command in '/home/bartek/ros2_ws/src/ros2_basics' returned '0': AMENT_PREFIX_PATH=/home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/pytest.xml --junit-prefix=ros2_basics -o cache_dir=/home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

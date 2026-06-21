@@ -1,0 +1,45 @@
+running egg_info
+creating build/ros2_basics/ros2_basics.egg-info
+writing build/ros2_basics/ros2_basics.egg-info/PKG-INFO
+writing dependency_links to build/ros2_basics/ros2_basics.egg-info/dependency_links.txt
+writing entry points to build/ros2_basics/ros2_basics.egg-info/entry_points.txt
+writing requirements to build/ros2_basics/ros2_basics.egg-info/requires.txt
+writing top-level names to build/ros2_basics/ros2_basics.egg-info/top_level.txt
+writing manifest file 'build/ros2_basics/ros2_basics.egg-info/SOURCES.txt'
+reading manifest file 'build/ros2_basics/ros2_basics.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/ros2_basics/ros2_basics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build
+creating /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib
+creating /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics
+copying ros2_basics/reach_checker.py -> /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics
+copying ros2_basics/launch.py -> /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics
+copying ros2_basics/__init__.py -> /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics
+copying ros2_basics/object_position.py -> /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics
+running install
+running install_lib
+creating /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics
+copying /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics/reach_checker.py -> /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics
+copying /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics/launch.py -> /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics
+copying /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics/__init__.py -> /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics
+copying /home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/build/lib/ros2_basics/object_position.py -> /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics
+byte-compiling /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics/reach_checker.py to reach_checker.cpython-312.pyc
+byte-compiling /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics/launch.py to launch.cpython-312.pyc
+byte-compiling /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics/object_position.py to object_position.cpython-312.pyc
+running install_data
+creating /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/share/ament_index
+creating /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/share/ament_index/resource_index
+creating /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/share/ament_index/resource_index/packages
+copying resource/ros2_basics -> /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/share/ament_index/resource_index/packages
+copying package.xml -> /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/share/ros2_basics
+creating /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/share/ros2_basics/launch
+copying launch/bringup.launch.py -> /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/share/ros2_basics/launch
+running install_egg_info
+Copying build/ros2_basics/ros2_basics.egg-info to /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/python3.12/site-packages/ros2_basics-0.0.0-py3.12.egg-info
+running install_scripts
+Installing object_position script to /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/ros2_basics
+Installing reach_checker script to /home/bartek/ros2_ws/src/ros2_basics/install/ros2_basics/lib/ros2_basics
+writing list of installed files to '/home/bartek/ros2_ws/src/ros2_basics/build/ros2_basics/install.log'

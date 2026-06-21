@@ -1,5 +1,6 @@
-import os
 from glob import glob
+import os
+
 from setuptools import find_packages, setup
 
 package_name = 'ros2_basics'
@@ -24,8 +25,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'counter = ros2_basics.counter:main',
-            'doubler = ros2_basics.doubler:main',
             'object_position = ros2_basics.object_position:main',
             'reach_checker = ros2_basics.reach_checker:main',
         ],
