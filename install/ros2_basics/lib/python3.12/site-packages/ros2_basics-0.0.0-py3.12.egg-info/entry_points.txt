@@ -1,3 +1,0 @@
-[console_scripts]
-object_position = ros2_basics.object_position:main
-reach_checker = ros2_basics.reach_checker:main
