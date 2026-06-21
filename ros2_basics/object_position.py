@@ -6,6 +6,7 @@ from rclpy.node import Node
 
 
 class object_position(Node):
+
     def __init__(self):
         super().__init__('object_position')  # nazwa node'a w grafie
         self.pub = self.create_publisher(Point, 'position', 10)

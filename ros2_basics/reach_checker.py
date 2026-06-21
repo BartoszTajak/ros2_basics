@@ -7,6 +7,7 @@ from std_msgs.msg import Bool  # ← nowy import: typ wiadomości Bool
 
 
 class reach_checker(Node):
+
     def __init__(self):
         super().__init__('reach_checker')
         self.create_subscription(Point, 'position', self.callback, 10)
